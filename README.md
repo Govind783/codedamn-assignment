@@ -4,6 +4,7 @@ Submission for codedamn's frontend assignment
 Built in 
 - Next js
 - Typescript
+- Tailwind
 - Redux
 
 the project contains 2 pages the default page and "/user" page 
