@@ -26,49 +26,60 @@ on the "/user" page the user sees hard coded data of certificates, playgrounds, 
 live link has been attached and project images have also been attached
 
 HomePage profile tab =>
+
 ![Homepage Profile tab](https://live.staticflickr.com/65535/52738525061_58951f1d2c_z.jpg)
 
 
 HomePage portfolio tab =>
+
 ![Homepage portfolio tab](https://live.staticflickr.com/65535/52738776454_fe22558e43_z.jpg)
 
 
 HomePage portfolio tab =>
+
 ![Homepage portfolio tab](https://live.staticflickr.com/65535/52738936140_4ba50fbf1e_z.jpg)
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738776514_e691e313df_z.jpg)
 
 
 user Page =>
+
 ![user page](https://live.staticflickr.com/65535/52738937500_fd6642b717_z.jpg)
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738936200_bcef8556ac_z.jpg)
 
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738936235_8a31c29207_z.jpg)
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738936230_54cbf0b5f6_z.jpg)
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738776589_c422bec3c6_z.jpg)
 
 
 
 User page => 
+
 ![user page](https://live.staticflickr.com/65535/52739009343_2ca3e7a423_z.jpg)
 
 
 
 User page =>
+
 ![user page](https://live.staticflickr.com/65535/52738936345_7f3a0e0e7d_z.jpg)
 
 
