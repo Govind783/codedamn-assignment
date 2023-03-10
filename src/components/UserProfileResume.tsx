@@ -117,7 +117,7 @@ const UserProfileResume = () => {
                             <p> {latestWorkExp.jobDescription} </p>
                             :
                             <p>
-                                This role would be great for a web developer with 3+ years' experience in designing and developing responsive websites. This position requires a profound understanding of the development process, using front-end technologies including HTML5, CSS3, JavaScript, jQuery, PHP/WordPress.
+                                This role would be great for a web developer with 3+ years of experience in designing and developing responsive websites. This position requires a profound understanding of the development process, using front-end technologies including HTML5, CSS3, JavaScript, jQuery, PHP/WordPress.
                             </p>
                         }
                     </div>
@@ -147,7 +147,7 @@ const UserProfileResume = () => {
 
                     <div className={styles.userPrevCompanyABout}>
                         <p>
-                            This role would be great for a web developer with 3+ years' experience in designing and developing responsive websites.
+                            This role would be great for a web developer with 3+ years of experience in designing and developing responsive websites.
                         </p>
                     </div>
 

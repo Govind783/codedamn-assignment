@@ -21,8 +21,8 @@ export default function Home() {
         <br />
         <br />
         <br />
-        <p className={styles.Note}> Note :- If you do not want to fill the entire form such as name, work exp, bio, education, etc. You can directly go to the <Link className=' text-yellow-800 underline' href={"/user"}>user </Link> page and see the user profile page with hard coded data.
-          However if you fill the entire form and visit the last tab "Portfolio" and click on save changes button then you will be redirected to the <Link className=' text-yellow-800 underline' href={"/user"}>user </Link> with all the data you had entered in the form.
+        <p className={styles.Note}> Note :- If you do not want to fill the entire form such as name, work exp, bio, education, etc. You can directly go to the <Link className='text-yellow-800 underline' href={"/user"}>user </Link> page and see the user profile page with hard coded data.
+          However if you fill the entire form and visit the last tab &quot;Portfolio&quot; and click on save changes button then you will be redirected to the <Link className='text-yellow-800 underline' href={"/user"}>user </Link> with all the data you had entered in the form.
         </p>
         <TabsComponents />
       </div>

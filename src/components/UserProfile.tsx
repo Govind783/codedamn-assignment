@@ -81,7 +81,7 @@ const UserProfile = () => {
                         {latestProfileData && latestProfileData.headline ?
                             <span className="latest-profile-data">{latestProfileData.headline.substring(0, 30)}</span> :
                             <span>Full stack dev at codedamn</span>
-                        } | {latestProfileData && latestProfileData.college ? latestProfileData.college : <span>Harvard'22</span>}
+                        } | {latestProfileData && latestProfileData.college ? latestProfileData.college : <span>Harvard&apos;22</span>}
                     </div>
 
 
