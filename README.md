@@ -22,6 +22,7 @@ the same validation has also been added for all other social links be it github,
 when the user finally goes to the "Portfolio" tab and clicks on the save changes button he gets redirected to the "/user" page with all the data the user had entered in the form.
 on the "/user" page the user sees hard coded data of certificates, playgrounds, etc where he is given the option to add a new certificate, a new playground, etc.
 
+and yes the website is completely responsive
 
 live link has been attached and project images have also been attached
 
