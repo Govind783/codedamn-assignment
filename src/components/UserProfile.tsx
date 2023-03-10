@@ -8,7 +8,7 @@ import userFb from "../assets/userSocialFacebook.png";
 import userinsta from "../assets/userSocialinsta.png";
 import usergoogle from "../assets/userSocialGoogle.png";
 import userLinkedin from "../assets/userSocailLinkedin.png";
-import useryt from "../assets/userSocialYt.png";
+import useryt from "../assets/yt.png";
 import usersaveBtn from "../assets/userSaveBtn.png";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import UserProfilePortfolio from './UserProfilePortfolio';
