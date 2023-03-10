@@ -1,0 +1,98 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: rgba(1, 4, 23, 1);
+    transition: left 0.3s ease-out;
+    z-index: 0;
+}
+
+
+.open {
+    left: 0;
+}
+
+.navHamHold {
+    width: 20rem;
+}
+
+
+.searchHold {
+    width: 23rem;
+    border: 2px solid #F4F4F5;
+    border-radius: 10px;
+    position: relative;
+    height: 2.75rem;
+
+}
+
+.css-b62m3t-container {
+    width: 6.5rem !important;
+}
+
+.select {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    outline: none;
+    margin-right: 0.2rem;
+}
+
+.thunder {
+    color: rgba(99, 102, 241, 1);
+    font-size: 20px;
+}
+
+.thunderText {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.profile {
+    position: relative;
+    top: -0.6rem;
+}
+
+
+.dropdown2 {
+    background-color: #fff;
+    padding-right: 1rem;
+
+    width: 5.1rem !important;
+    background-color: rgb(244, 244, 245);
+    border-radius: 6.55px;
+    height: 1.8rem;
+    color: grey;
+    outline: none !important;
+    padding-left: 0.5rem;
+    padding-right: 0.7rem;
+    margin-left: 8rem;
+
+    margin-left: 8rem;
+    position: relative;
+    top: -2rem;
+}
+
+@media(max-width:650px){
+    .dropdown2{
+        width: 4rem !important;
+    }
+}
+
+
+.navh{
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+
+    height: 4rem;
+}
+
+.bel{
+    width: 3rem;
+    height: 3rem !important;
+}
+.light{
+    width: 2.5rem;
+    height: 2.5rem !important;
+}

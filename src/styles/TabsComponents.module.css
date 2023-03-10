@@ -1,0 +1,23 @@
+.tabBody {
+    width: 46.8rem;
+    margin-right: 3rem;
+    position: relative;
+}
+
+.tabsContentHold{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 6rem;
+    flex-wrap: wrap;
+}
+
+@media(max-width:650px){
+    .tabBody{
+        margin-right: -1rem;
+    }
+
+    .tabsContentHold{
+        margin-right: 0rem ;
+        gap: 2rem;
+    }
+}

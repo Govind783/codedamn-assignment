@@ -1,0 +1,101 @@
+
+/*    NEW CSS  */
+
+.profileInputParent {
+    width: 47rem;
+}
+
+.uploadImg {
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(79, 70, 229, 1);
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    width: 6rem;
+    height: 2.5rem;
+    background: rgba(244, 244, 245, 1);
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profileForm {
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+    border-radius: 10px;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+
+.aboutForm {
+    height: 3.7rem;
+    outline: none !important;
+    width: 39rem;
+    padding-left: 8px;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 228, 231, 1);
+    color: black;
+}
+
+
+.userInputPorfile {
+    outline: none !important;
+    width: 39rem;
+    padding-left: 8px;
+    height: 2.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 228, 231, 1);
+    color: black;
+    text-transform: lowercase;
+    padding-right: 1rem;
+}
+
+.subHeadingForm{
+    margin-top: -0.9rem;
+}
+
+
+.toggleFormHold {
+    background: #FAFAFA;
+    border-radius: 18px;
+    width: 41rem;
+    height: 19rem;
+}
+
+.w26rem{
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media(max-width:650px){
+    .toggleFormHold{
+        height: 33.7rem;
+        padding-right: 1rem;
+    }
+}
+
+
+.userDisplayPic{
+    border-radius: 50%;
+    width: 5rem !important;
+    height: 5rem !important;
+}

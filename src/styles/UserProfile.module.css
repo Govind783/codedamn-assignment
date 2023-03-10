@@ -1,0 +1,248 @@
+.userHeaderSectionHold {
+    width: 46rem;
+    border-radius: 12px;
+    border: 1px solid #E4E4E7;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.UserPortfolioMainParent {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+
+}
+
+.userStatusBadge {
+    color: #075985;
+    background: #E0F2FE;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userBasicDetailsHold {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    top: -3.5rem;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+    height: 8.3rem;
+}
+
+.subscriptionStatus {
+    /*text-bold text-black bg-green-300 rounded w-12 h-7 text-center*/
+    border-radius: 4px;
+    text-align: center;
+    color: #18181B;
+    font-weight: 600;
+    width: 3rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BEF264;
+
+}
+
+.userProfessionalsDetailsHold {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 1.7rem;
+    width: 39rem;
+}
+
+.userLocation {
+    color: #A1A1AA;
+    width: 19.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 0rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.userDp {
+    width: 8rem;
+}
+
+@media(max-width:600px) {
+    .userDp {
+        width: 5.7rem;
+    }
+
+    .userLocation {
+        width: 10.2rem;
+
+    }
+
+    .UsersocialsMainParent {
+        padding-left: 1rem;
+        gap: 2rem;
+    }
+}
+
+@media(min-width:630px) {
+    .userBasicDetailsHold {
+        height: 3.3rem;
+    }
+
+
+}
+
+@media(max-width:700px) {
+    .userProfessionalsDetailsHold {
+        margin-top: 1.5rem;
+    }
+
+
+    .userSkillsHold {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+
+}
+
+
+.userSkillsHold {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    width: 34.5rem;
+    margin-left: auto;
+    margin-top: 1.3rem;
+
+}
+
+.userSkill {
+    background: #F4F4F5;
+    font-weight: 600;
+    color: black;
+    border-radius: 9px;
+    width: auto;
+    font-size: 13px;
+    height: 2rem;
+    text-transform: capitalize;
+    min-width: 4.2rem;
+    max-width: 5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userDivider {
+    width: 35.6rem;
+    height: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F4F4F5;
+
+}
+
+.userContactBtn {
+    width: 6rem;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(79, 70, 229, 1);
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+}
+
+.UsersocialsMainParent {
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 34.4rem;
+    justify-content: space-between;
+}
+
+.chakraUITab {
+    background-color: #F4F4F5 !important;
+    width: 6rem !important;
+    border-radius: 7px !important;
+}
+
+.chakraTabsHold {
+    gap: 2rem;
+    padding-left: 1.8rem;
+    border-radius: 12px;
+    border: 1px solid #E4E4E7;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    width: 46rem !important;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media(max-width:600px) {
+    .chakraTabsHold {
+        justify-content: center !important;
+        padding-left: 0rem;
+    }
+}
+
+
+.tabContentMainParent {
+    width: 47rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.userHeaderContainer {
+    width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.userHeadlineHoldd {
+
+    width: 19.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 0.5rem;
+    color: #71717A;
+
+}
+
+@media(max-width:600px){
+    .tabResumeHold{
+        
+    }
+
+    .headUserHold{
+        margin-top: -2rem;
+
+    }
+}
+
+.headUserHold{
+    position: relative;
+    top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+

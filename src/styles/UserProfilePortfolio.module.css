@@ -1,0 +1,272 @@
+.UserProfilePortfolioConatiner {
+    width: 47rem;
+}
+
+.indivitualStatCard {
+    background: #FAFAFA;
+    border-radius: 12px;
+    width: 20rem;
+    height: 4.8rem;
+    padding-left: 1rem;
+}
+
+.statsCardHold {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.stateSubHeadingHold {
+    justify-content: center;
+    width: 13rem;
+    position: relative;
+    top: -2rem;
+    display: flex;
+}
+
+.statHeading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+
+
+}
+
+
+/* PORTFOLIO CARDS */
+
+.portfolioHold {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45rem;
+    gap: 3rem;
+    justify-content: center;
+}
+
+
+.uploadImg {
+    width: 10rem;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(79, 70, 229, 1);
+    height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.deleteBtn {
+    width: 6rem;
+    height: 2.5rem;
+    background: rgba(244, 244, 245, 1);
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.UserprojectCard {
+    transition: all ease-in 100ms;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+}
+
+.projectCard:hover {
+    border: 2px solid rgba(79, 70, 229, 1);
+
+}
+
+
+
+/*  REDIRECTING CSS */
+
+.loadingOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 50% opacity black background */
+    z-index: 9999;
+}
+
+.loadingMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5b53e6;
+    padding: 2rem;
+    color: white;
+    border-radius: 9px;
+    text-align: center;
+    z-index: 10000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media(max-width : 700px) {
+    .playgorundUser {
+        width: 2rem;
+        height: 2rem !important;
+    }
+
+    .skillsPlaygroundHold {
+        margin-top: 0.4rem;
+    }
+
+    #ProjectLanguage {
+        gap: 1rem;
+    }
+}
+
+/* PLAY GROUBNDS */
+
+
+.playgroundCardsHold {
+    width: 44rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 2rem;
+}
+
+.indivitualPlayground {
+    background: linear-gradient(0deg, #F4F4F5, #F4F4F5),
+        linear-gradient(0deg, #FAFAFA, #FAFAFA);
+
+    width: 21rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 1.1rem;
+    border-radius: 10px;
+}
+
+.playgroundsharedUser {
+    width: 17.2rem;
+    justify-content: end;
+    display: flex;
+    gap: 0px;
+    margin-left: -0.8rem;
+}
+
+@media(max-width:650px) {
+    .playgroundsharedUser {
+        margin-left: 0.8rem;
+    }
+
+
+    .playgroundSkillContainer{
+        width: 10rem !important;
+    }
+}
+
+.playgroundSkillContainer {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    color: #71717A;
+    width: 12rem;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+
+
+
+.skillsPlaygroundHold {
+    display: flex;
+    gap: 0.25rem;
+    justify-content: flex-end;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    width: 13.8rem;
+    margin-top: -0.6rem;
+
+}
+
+
+@media(max-width : 700px) {
+    .playgorundUser {
+        width: 2rem;
+        height: 2rem !important;
+    }
+
+    .skillsPlaygroundHold {
+        margin-top: 0.4rem;
+    }
+
+    #ProjectLanguage {
+        gap: 1rem;
+    }
+}
+
+
+
+/*  CERTIFICATES */
+
+.certificatesHold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.indivitualCertificate {
+    border: 1px solid #E4E4E7;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    width: 21rem;
+    min-height: 10.8rem;
+    height: auto;
+
+}
+
+.longestStreak {
+    display: flex;
+    justify-content: flex-start;
+    width: 11rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -2rem;
+}
+
+.userModalInput {
+    outline: none !important;
+    width: 22rem;
+    padding-left: 6px;
+    height: 2.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 228, 231, 1);
+    color: black;
+    text-transform: lowercase;
+}
+
+.userModalInputHold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    justify-content: center;
+}
+
+.addCertificateBtn {
+    background-color: #4F46E5;
+    color: white;
+    font-weight: 600;
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 6px;
+}
+
+
+.cancelBtn{
+    border:2px solid #4F46E5;
+    color: #4F46E5;
+    font-weight: 600;
+    width: 8rem;
+    height: 2.7rem;
+    border-radius: 6px;
+    background-color: transparent;
+    
+}

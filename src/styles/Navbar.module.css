@@ -1,0 +1,97 @@
+.navHold {
+    position: sticky;
+    top: 0;
+    height: 5.75rem;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    z-index: 99999 !important;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: var(--navbar-padding, 0.5rem);
+    min-height: 4rem
+        /* 64px */
+    ;
+    width: 100%;
+    padding-top: 1rem;
+    ;
+}
+
+:where(.navbar > *) {
+    display: inline-flex;
+    align-items: center;
+}
+
+.searchHold {
+    width: 23rem;
+    border: 2px solid #F4F4F5;
+    border-radius: 10px;
+    position: relative;
+    height: 2.75rem;
+
+}
+
+.css-b62m3t-container {
+    width: 6.5rem !important;
+}
+
+.select {
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+    outline: none;
+    margin-right: 0.2rem;
+}
+
+.thunder {
+    color: rgba(99, 102, 241, 1);
+    font-size: 20px;
+}
+
+.thunderText {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.dropdown {
+    background-color: #fff;
+    padding-right: 1rem;
+
+    width: 6.1rem !important;
+    background-color: rgb(244, 244, 245);
+    border-radius: 6.55px;
+    height: 1.8rem;
+    color: grey;
+    outline: none !important;
+    padding-left: 0.5rem;
+    padding-right: 0.7rem;
+    margin-left: 3rem;
+}
+
+.profile {
+    position: relative;
+    top: -0.6rem;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: rgba(1, 4, 23, 1);
+    transition: left 0.3s ease-out;
+    z-index: 0;
+}
+
+
+.open {
+    left: 0;
+}
+
+.navHamHold{
+    width: 20rem;
+}

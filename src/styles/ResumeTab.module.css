@@ -1,0 +1,102 @@
+.resumeTabContainer {
+    width: 47rem;
+
+}
+
+.optionsWrapper {}
+
+.option {
+    background-color: #f2f2f2;
+    /* set the background to light grey */
+    color: #333;
+    /* set text color */
+}
+
+.option:hover {
+    background-color: #fff;
+    /* add a light whiteish effect on hover */
+}
+
+.headlineInput {
+    outline: none !important;
+    width: 39rem;
+    padding-left: 8px;
+    height: 2.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 228, 231, 1);
+    color: black;
+    text-transform: lowercase;
+
+}
+
+.workExpInputForm {
+    outline: none !important;
+    width: 19rem;
+    padding-left: 8px;
+    height: 2.8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(228, 228, 231, 1);
+    color: black;
+}
+
+.addSkillBtn {
+    background-color: #4F46E5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 5.4rem;
+    height: 2.4rem;
+}
+
+.dataSubmitBtn {
+    background-color: #4F46E5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.4rem;
+}
+
+
+.addedSkillsHold {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.indivitualAddedSkill {
+    background: #F4F4F5;
+    font-weight: 600;
+    color: black;
+    border-radius: 6px;
+    width: auto;
+    font-size: 13px;
+    height: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    min-width: 4.6rem;
+    max-width: 5.1rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeTabFromHold {
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.resumeDropdownHold{
+    width: 38rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
