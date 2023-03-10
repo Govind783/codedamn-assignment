@@ -102,14 +102,15 @@ const Profile = ({ handleChangeTab, activeTab }: ProfileProps) => {
       return;
     }
 
-    const existingUser = reduxArr.find(user =>
+
+    const existingUser=reduxArr.find((user :any) => {
       user.name === userName &&
       user.userGender === gender &&
       user.aboutUser === about &&
       user.userProfession === profession &&
       user.headline === headline &&
       user.college === college
-    );
+    })
 
     // if the user submits the samne dataa
     if (existingUser) {

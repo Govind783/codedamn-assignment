@@ -420,7 +420,7 @@ const UserProfilePortfolio = () => {
         {projects.map((item) => {
           return (
 
-            <Card maxW='sm'>
+            <Card maxW='sm' key={Math.random()}>
               <CardBody className={styles.UserprojectCard}>
                 <Image
                   src={item.projectImage}
@@ -506,7 +506,7 @@ const UserProfilePortfolio = () => {
         <div className={styles.playgroundCardsHold}>
           {playGrounds.map((item) => {
             return (
-              <div className={styles.indivitualPlayground}>
+              <div className={styles.indivitualPlayground} key={Math.random()}>
 
                 <div className="flex items-center gap-4 h-9">
                   <Image src={item.playgroundImage} quality={100} alt="" className='mt-3' />
@@ -584,7 +584,7 @@ const UserProfilePortfolio = () => {
       <div className={styles.certificatesHold}>
         {cretiificates.map((item) => {
           return (
-            <div className={styles.indivitualCertificate}>
+            <div className={styles.indivitualCertificate} key={Math.random()}>
 
               <Image src={item.image} quality={100} alt="" className='ml-5 mt-5 mb-3' />
 
